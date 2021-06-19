@@ -10,7 +10,7 @@ export const addList = (list: List): ListAction => {
 export const getLists = (): ListAction => {
     return {
         type: GET_LISTS,
-
+        payload: '',
     }
 }
 
